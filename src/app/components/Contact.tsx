@@ -134,11 +134,32 @@ export default function Contact() {
 
             {/* الروابط */}
             <div className="flex gap-4 mt-10">
-              <Link href="https://github.com/mostafa-512" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-white/80 hover:text-[#14005c] hover:bg-white transition-all">
-                <CatIcon size={20} />
+{/* GitHub Link */}
+              <Link 
+                href="https://github.com/amr-177" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center group hover:bg-[#181717] hover:border-[#181717] transition-all duration-300 hover:-translate-y-1 shadow-sm"
+              >
+                <img 
+                  src="https://cdn.simpleicons.org/github/white" 
+                  alt="GitHub" 
+                  className="w-5 h-5 opacity-80 group-hover:opacity-100 transition-opacity" 
+                />
               </Link>
-              <Link href="https://www.linkedin.com/in/mostafa-abdalraheem" target="_blank" rel="noreferrer" className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center text-white/80 hover:text-[#14005c] hover:bg-white transition-all">
-                <LucideNetwork size={20} />
+
+              {/* LinkedIn Link */}
+              <Link 
+                href="https://www.linkedin.com/in/amr-abdallah" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center group hover:bg-[#0A66C2] hover:border-[#0A66C2] transition-all duration-300 hover:-translate-y-1 shadow-sm"
+              >
+                <img 
+                  src="https://api.iconify.design/simple-icons:linkedin.svg?color=white"
+                  alt="LinkedIn" 
+                  className="w-5 h-5 opacity-80 group-hover:opacity-100 transition-opacity" 
+                />
               </Link>
             </div>
           </div>
