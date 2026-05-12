@@ -17,7 +17,7 @@ export default function Hero() {
         </h2>
         
         <h1 className="text-4xl md:text-6xl md:leading-[1.2] font-bold text-slate-100">
-          Hi, I'm <br/>
+          Hi, I&apos;m <br/>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-emerald-200">
             Amr Abdallah Abosreea
           </span>

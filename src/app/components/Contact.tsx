@@ -2,7 +2,8 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Send, Mail, Smartphone, MapPin, CheckCircle2, AlertCircle, CatIcon, LucideNetwork } from 'lucide-react';
+import Image from 'next/image';
+import { Send, Mail, Smartphone, MapPin, CheckCircle2, AlertCircle } from 'lucide-react';
 
 export default function Contact() {
   const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
@@ -94,9 +95,9 @@ export default function Contact() {
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* معلومات التواصل */}
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Let's work <span className="text-indigo-300">together</span></h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Let&apos;s work <span className="text-indigo-300">together</span></h2>
             <p className="text-indigo-100/80 mb-8 max-w-md">
-              I'm currently available to take on new projects or discuss full-time roles. Feel free to send me a message!
+              I&apos;m currently available to take on new projects or discuss full-time roles. Feel free to send me a message!
             </p>
 
             <div className="space-y-6">
@@ -141,10 +142,12 @@ export default function Contact() {
                 rel="noreferrer" 
                 className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center group hover:bg-[#181717] hover:border-[#181717] transition-all duration-300 hover:-translate-y-1 shadow-sm"
               >
-                <img 
-                  src="https://cdn.simpleicons.org/github/white" 
+<Image 
+                  src="https://api.iconify.design/simple-icons:github.svg?color=white" 
                   alt="GitHub" 
-                  className="w-5 h-5 opacity-80 group-hover:opacity-100 transition-opacity" 
+                  width={20} 
+                  height={20}
+                  className="opacity-80 group-hover:opacity-100 transition-opacity" 
                 />
               </Link>
 
@@ -155,10 +158,12 @@ export default function Contact() {
                 rel="noreferrer" 
                 className="w-12 h-12 bg-white/5 border border-white/10 rounded-full flex items-center justify-center group hover:bg-[#0A66C2] hover:border-[#0A66C2] transition-all duration-300 hover:-translate-y-1 shadow-sm"
               >
-                <img 
+                <Image 
                   src="https://api.iconify.design/simple-icons:linkedin.svg?color=white"
                   alt="LinkedIn" 
-                  className="w-5 h-5 opacity-80 group-hover:opacity-100 transition-opacity" 
+                  width={20}
+                  height={20}
+                  className="opacity-80 group-hover:opacity-100 transition-opacity" 
                 />
               </Link>
             </div>

@@ -25,7 +25,7 @@ export default function About() {
             </div>
             <div>
               <h4 className="text-xl font-semibold text-slate-100">Education</h4>
-              <p className="text-slate-300">Bachelor's Degree in Management Information Systems</p>
+              <p className="text-slate-300">Bachelor&apos;s Degree in Management Information Systems</p>
               <p className="text-sm text-sky-400">Raya Higher Institute, Damietta (Exp. 2027)</p>
             </div>
           </div>

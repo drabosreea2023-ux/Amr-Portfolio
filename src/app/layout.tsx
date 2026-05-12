@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://amr-abdallah.netlify.app'),
   title: 'Amr Abdallah | DevOps Engineer',
   description: 'Portfolio of Amr Abdallah Abosreea, a DevOps Engineer specializing in Cloud Infrastructure, Automation, and CI/CD pipelines.',
   keywords: ['DevOps Engineer', 'Cloud', 'AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Linux', 'Amr Abdallah Abosreea', 'Egypt', 'Portfolio'],
